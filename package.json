@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Searchable question index for the OpenCode TUI session sidebar. Click any previous prompt to jump back to it.",
   "type": "module",
+  "private": true,
   "exports": {
     "./tui": "./src/tui.tsx"
   },

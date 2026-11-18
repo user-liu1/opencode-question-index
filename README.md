@@ -1,7 +1,6 @@
 # opencode-question-index
 
-[![npm version](https://img.shields.io/npm/v/opencode-question-index.svg)](https://www.npmjs.com/package/opencode-question-index)
-[![license](https://img.shields.io/npm/l/opencode-question-index.svg)](./LICENSE)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 A searchable question index for the [OpenCode](https://opencode.ai) TUI session sidebar. It lists your previous prompts in the current session; click one to jump back to that message.
 
@@ -20,13 +19,7 @@ A searchable question index for the [OpenCode](https://opencode.ai) TUI session 
 
 ## Install
 
-### npm
-
-```sh
-opencode plugin add opencode-question-index
-```
-
-OpenCode installs the package and adds it to `~/.config/opencode/cli.json`, because this is a TUI-only plugin. Restart the TUI if the sidebar does not appear.
+> Not published to npm yet. Install directly from GitHub or from a local checkout.
 
 ### GitHub
 
@@ -34,17 +27,15 @@ OpenCode installs the package and adds it to `~/.config/opencode/cli.json`, beca
 opencode plugin add github:user-liu1/opencode-question-index
 ```
 
+OpenCode installs the package and adds it to `~/.config/opencode/cli.json`, because this is a TUI-only plugin. Restart the TUI if the sidebar does not appear.
+
 ### Manual
 
-Add the package to `~/.config/opencode/cli.json`:
+Clone the repository and point `~/.config/opencode/cli.json` at the checkout:
 
-```json
-{
-  "plugins": ["opencode-question-index"]
-}
+```sh
+git clone https://github.com/user-liu1/opencode-question-index.git
 ```
-
-For a local checkout, use the directory path instead:
 
 ```json
 {

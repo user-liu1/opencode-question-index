@@ -1,7 +1,6 @@
 # opencode-question-index
 
-[![npm version](https://img.shields.io/npm/v/opencode-question-index.svg)](https://www.npmjs.com/package/opencode-question-index)
-[![license](https://img.shields.io/npm/l/opencode-question-index.svg)](./LICENSE)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 一个给 [OpenCode](https://opencode.ai) TUI 会话侧边栏用的可搜索提问索引。它列出当前会话里你之前提过的问题，点一下即可跳回对应的消息位置。
 
@@ -20,13 +19,7 @@
 
 ## 安装
 
-### npm
-
-```sh
-opencode plugin add opencode-question-index
-```
-
-这是纯 TUI 插件，OpenCode 会自动把它写进 `~/.config/opencode/cli.json`。如果侧边栏没有出现，重启一次 TUI。
+> 暂未发布到 npm。请直接从 GitHub 安装，或使用本地目录。
 
 ### GitHub
 
@@ -34,17 +27,15 @@ opencode plugin add opencode-question-index
 opencode plugin add github:user-liu1/opencode-question-index
 ```
 
+这是纯 TUI 插件，OpenCode 会自动把它写进 `~/.config/opencode/cli.json`。如果侧边栏没有出现，重启一次 TUI。
+
 ### 手动安装
 
-在 `~/.config/opencode/cli.json` 中加入：
+先克隆仓库，再在 `~/.config/opencode/cli.json` 里指向该目录：
 
-```json
-{
-  "plugins": ["opencode-question-index"]
-}
+```sh
+git clone https://github.com/user-liu1/opencode-question-index.git
 ```
-
-本地开发时可以直接写目录路径：
 
 ```json
 {
