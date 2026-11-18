@@ -96,7 +96,7 @@ This is the same internal approach used by OpenCode's built-in `/timeline` comma
 
 ## Compatibility
 
-- OpenCode V2 (`>= 2.0.0`). Tested with `2.2.5`.
+- OpenCode V2 (`>= 2.0.0`). Developed against `2.2.5`.
 - TUI only; the package has no server part.
 - The renderer traversal relies on internal TUI structures, so a future OpenCode release may change the behavior. The fallback navigation keeps the plugin usable when that happens.
 

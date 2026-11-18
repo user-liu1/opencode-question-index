@@ -96,7 +96,7 @@ OpenCode V2 没有公开的 `scrollToMessage(messageID)` API。插件的做法�
 
 ## 兼容性
 
-- OpenCode V2（`>= 2.0.0`），实测版本 `2.2.5`。
+- OpenCode V2（`>= 2.0.0`），基于 `2.2.5` 开发。
 - 纯 TUI 插件，没有 server 部分。
 - 跳转依赖 TUI 内部结构，未来的 OpenCode 版本可能调整；届时插件会退回内置导航，仍可使用。
 
